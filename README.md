@@ -4,11 +4,12 @@
 
 ### Install Tailwind via npm
 
+<pre>
 * <code>npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
 </code>
 
 * <code>npm install @craco/craco</code>
-
+</pre>
 ##### Once it’s installed, update your scripts in your package.json file to use craco instead of react-scripts for all scripts except eject:
 <pre>
 <code>
